@@ -1,0 +1,132 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+.backgrounds__1 {
+  background-color: #6474FF;
+  padding-bottom: 135px;
+}
+.backgrounds__2 {
+  background-color: #EEF0F1;
+  padding-bottom: 600px;
+}
+.backgrounds__3 {
+  background-color: #6474FF;
+  padding-bottom: 135px;
+}
+
+.button {
+  position: absolute;
+  bottom: 94%;
+  left: 87%;
+}
+.button__link a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background-color: #FFC000;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.header {
+  position: absolute;
+  bottom: 550px;
+  background-color: #ffffff;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  border-radius: 13px;
+  padding-bottom: 3%;
+}
+.header__img {
+  display: flex;
+}
+.header__img img {
+  width: 70px;
+  border-radius: 50%;
+  border: solid 4px #6474FF;
+  margin: 20px auto 0px auto;
+}
+.header__name {
+  text-align: center;
+}
+.header__name h4 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.header__desc p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.about {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  gap: 70px;
+  left: 0;
+  right: 0;
+  bottom: 200px;
+}
+.about__skill {
+  width: 220px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+.about__learning {
+  width: 220px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+.about__available {
+  width: 220px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+.about ul {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.about h3 {
+  font-size: 18px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.socials {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.socials ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+  padding: 0;
+}
+.socials p {
+  text-align: center;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+}
+.socials a {
+  color: #fff;
+  font-size: 17px;
+  font-style: italic;
+}/*# sourceMappingURL=style.css.map */
