@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Your Purchase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="purchase-section">
+        <section class="purchase-section__logo-text">
+            <img src="../lb3/imgs/logo.svg" alt="">
+            <h1 class="purchase-section__logo-h1">Complete your purchase</h1>
+        </section>
+        <section class="purchase-section__pay-info">
+            <div class="purchase-section__purchases">
+                <ul>
+                    <li class="purchase-section__purchase1">
+                        <div class="purchase-section__purchase-info">
+                            
+                            <div class="purchase-section__purchase-row1" >
+                                <div>
+                                    <img src="../lb3/imgs/books.svg" alt="" class="purchase-section__books">
+                                    Golden Penny Spread
+                                </div>
+                                <div class="purchase-section__purchase-data">AUG 5</div>
+                            </div>
+                            <div class="purchase-section__purchase-row2">
+                                <div class="purchase-section__purchase-time-sn">
+                                    <div>
+                                        SN43500
+                                    </div>
+                                    <div>
+                                        12:50 PM
+                                    </div>
+                                </div>
+                                <div class="purchase-section__purchase-cost">
+                                    $14.79
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="purchase-section__purchase2">
+                        <div class="purchase-section__purchase-info">
+                            <div class="purchase-section__purchase-row1" >
+                                <div>
+                                    <img src="../lb3/imgs/books.svg" alt="" class="purchase-section__books">
+                                    Orange Blossom Honey
+                                </div>
+                                <div class="purchase-section__purchase-data">AUG 5</div>
+                            </div>
+                            <div class="purchase-section__purchase-row2">
+                                <div class="purchase-section__purchase-time-sn">
+                                    <div>
+                                        SN76500
+                                    </div>
+                                    <div>
+                                        12:50 PM
+                                    </div>
+                                </div>
+                                <div class="purchase-section__purchase-cost">
+                                    $20.21
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="purchase-section__purchase3">
+                        <div class="purchase-section__purchase-info">
+                            <div class="purchase-section__purchase-row1">
+                                <div><img src="../lb3/imgs/books.svg" alt="" class="purchase-section__books">
+                                Cocopops Cereal
+                            </div>
+                                <div class="purchase-section__purchase-data">AUG 5</div>
+                            </div>
+                            <div class="purchase-section__purchase-row2">
+                                <div class="purchase-section__purchase-time-sn">
+                                    <div>
+                                        SN90500
+                                    </div>
+                                    <div>
+                                        12:50 PM
+                                    </div>
+                                </div>
+                                <div class="purchase-section__purchase-cost">
+                                    $15.00
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="purchase-section__total">
+                <div class="purchase-section__row">
+                    <div>
+                        Subtotal
+                    </div>
+                    <div>
+                        $50.00
+                    </div>
+                </div>
+                <div class="purchase-section__row">
+                    <div>
+                        Taxes&Fees
+                    </div>
+                    <div>
+                        $10.00
+                    </div>
+                </div>
+                <div class="purchase-section__row">
+                    <div>
+                        Promo Code - 1E5344505
+                    </div>
+                    <div>
+                        -30%
+                    </div>
+                </div>
+                <div class="purchase-section__total-row">
+                    <div>
+                        Total
+                    </div>
+                    <div>
+                        $42.00
+                    </div>
+                </div>
+            </div>
+            <div class="purchase-section__prev">
+                <a href="index1.html"><img src="../lb3/imgs/button.svg" alt="">Previous page</a>
+            </div>
+        </section>
+    </section>
+    <section class="pay"> 
+        <section class="pay__with">
+            <a href="#">
+                <div>
+                    Pay with PayPal
+                </div>
+            </a>
+            <p>Or pay with card</p>
+        </section>
+        <form action="#" class="pay__info">
+            <div class="pay__info-email">
+                <p>Email</p>
+                <input type="text" name="email" class="pay__info-input">
+            </div>
+            <div class="pay__info-card">
+                <p>Card info</p>
+                <div><input type="tel" name="card" placeholder="1234 1234 1234 1234" value="" class="pay__info-number">
+                    <div class="pay__img"><img src="../lb3/imgs/visa.svg" alt=""><img src="../lb3/imgs/mastercard.svg" alt=""><img src="../lb3/imgs/americanexpress.svg" alt=""><img src="../lb3/imgs/discover.svg" alt=""></div>  
+                    <div class="pay__info-cardrow"><input type="tel" name="card1" placeholder="MM / YY" value="" class="pay__info-mmyy">
+                        <input type="tel" name="card1" placeholder="CVC" value="" class="pay__info-cvc"><img src="../lb3/imgs/creditcard.svg" alt="">
+                        </div>
+                </div>
+                
+            </div>
+            <div class="pay__info-cardname">
+                <p>Name on card</p>
+                <input type="text" name="name-card" class="pay__info-input">
+            </div>
+            <div class="pay__info-img">
+                <p>Country or region</p>
+                <select name="country-region" class="pay__info-select">
+                    <option value="1">United States</option>
+                    <option value="2">Ukraine</option>
+                    <option value="2">France</option>
+                </select>
+            </div>
+            <div>
+                <input type="tel" name="ZIP" placeholder="ZIP" class="pay__info-zip">
+            </div>
+        </form>
+        <div class="pay__btn">
+            <a href="#"><div>Pay 42.00$</div></a>
+        </div>
+        
+    </section>
+</body>
+</html>
