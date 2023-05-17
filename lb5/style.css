@@ -73,7 +73,6 @@ input {
 .side-menu__nav-selected img {
   animation: fullcircle 1s linear 0ms infinite;
 }
-
 .main {
   padding: 0 30px 200px 30px;
   min-width: 60%;
