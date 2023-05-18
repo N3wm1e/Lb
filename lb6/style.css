@@ -1,0 +1,38 @@
+.header,.features,.industry,.pricing,.footer{
+    background-color: #252B42;
+}
+.reviews{
+    background-color: #8EC2F2;
+}
+h1{
+    padding-bottom:80px ;
+}
+.hero{
+    background-image: url(./img/herocover.svg);
+    background-position: center;
+}
+.features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.bottom{
+    bottom: 200px;
+}
+.h{
+    height: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.px-6{
+    padding: 0 4rem;
+}
+.fs-0{
+    font-size: calc(2rem + 2vw);
+}
+.lh{
+line-height: calc(2rem + 2vw);
+}
