@@ -8,89 +8,118 @@
     <link rel="stylesheet" href="style.css">
     <title>BrandName</title>
 </head>
-<body class="text-white overflow-x-hidden">
-    <header class="header  ">
-        <div class="container text-center container_background-color_dark pb-5" >
-            <div class="row pt-3 vh-75">
-                <div class="col-sm-12">
-                    <h1 class="ps-2 text-start">BrandName</h1>
-                    <ul class="list-unstyled fw-medium fs-1">
-                        <li class="pb-5"><a href="" class="">Home</a></li>
-                        <li class="pb-5"><a href="" class="">Product</a></li>
-                        <li class="pb-5"><a href="" class="">Pricing</a></li>
-                        <li class="pb-5"><a href="" class="">Contact</a></li>
+<body class="text-white">
+    <header class="header position-relative z-1">
+        <div class="container-fluid text-center p-3 px-lg-5" >
+            <div class="row">
+                <div class="col-sm-12 d-lg-flex justify-content-lg-between">
+                    <h1 class="pb-5 ps-2 text-start pe-lg-5 pt-lg-1">BrandName</h1>
+                    <ul class="list-unstyled fw-medium fs-1 d-lg-flex fs-lg col-auto me-auto pt-lg-1 ">
+                        <li class="pb-5 pe-lg-3"><a href="" class="">Home</a></li>
+                        <li class="pb-5 pe-lg-3"><a href="" class="">Product</a></li>
+                        <li class="pb-5 pe-lg-3"><a href="" class="">Pricing</a></li>
+                        <li class="pb-5 pe-lg-3"><a href="" class="">Contact</a></li>
                     </ul>
+                    <nav class="d-none d-lg-inline-flex justify-content-lg-between align-items-lg-baseline">
+                        <a href="" class="me-3">
+                            <div class="fw-medium fs-lg">Login</div>
+                        </a>
+                        <button type="button" class="fw-medium fs-lg btn btn-primary">Become a member <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg></button>
+                    </nav>
                 </div>
             </div>
         </div>
     </header>
     <section class="hero">
-        <div class="container text-center pb-5 ">
-            <div class="row pt-5 vh-75">
-                <div class="col-sm-12">
-                    <h2 class="fs-1 fw-bold pb-4">
-                        We Ensure A <br> Best Insurance <br> Service
-                    </h2>
-                    <h4 class="fw-medium fs-5 pb-3">We know how large <br>
-                        objects will act, but things <br>
-                        on a small scale just do <br>
-                        not act that way.</h4>    
-                    <div class="d-flex flex-column align-items-center">
-                            <button type="button" class="btn btn-primary mb-2 rounded-pill">Get Quote Now</button>
-                            <button type="button" class="btn btn-outline-primary rounded-pill">Learn More</button>
+        <div class="container-fluid m-0 px-0 overflow-visible ">
+            <div class="row">
+                <div class="col-sm-12 overflow-hidden">
+                    <img src="./img/herocover.svg" alt="" class=" object-fit-cover object-fit-lg-contain vh-100 w-100 opacity-50" alt="">
+                    <div class="position-relative bottom-75 mb-5 text-center px-4 h text-lg-start mb-lg-0 ms-lg-5 px-lg-2">
+                        <h2 class="fw-bold pb-4 w-50 mx-auto mx-lg-0 h1" >
+                            We Ensure A Best Insurance Service
+                        </h2>
+                        <h4 class="fw-medium fs-5 pb-4 w-50 mx-auto mx-lg-0 fs-lg pe-lg-5">We know how large 
+                            objects will act, but things 
+                            on a small scale just do
+                            not act that way.</h4>    
+                        <div class="d-flex flex-column align-items-center d-lg-block">
+                                <button type="button" class="btn btn-primary mb-3 rounded-pill mb-lg-0 me-lg-2 p-lg-2 px-lg-4">Get Quote Now</button>
+                                <button type="button" class="btn btn-outline-primary btn-white rounded-pill p-lg32 p-lg-2 px-lg-3 btn btn-lg-outline-white">Learn More</button>
+                        </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
 
     </section>
-    <section class="features vertical-align">
-        <div class="container text-center ">
-            <div class="row align-middle vh-100 ">
-                <div class="col-sm-4">
-                    <img src="./img/icon 1.svg" alt="" class="pb-3">
-                    <h5>Peace of Mind</h5>
-                    <p>So it really behaves like neither. <br> 
-                        Now we have given up. </p>
-                </div>
-                <div class="col-sm-4">
-                    <img src="./img/icon2.svg" alt="" class="pb-3"> 
-                    <h5>Set For Life</h5>
-                    <p>They were used to create the <br>
-                        machines that launched  </p>   
-                </div>
-                <div class="col-sm-4">
-                    <img src="./img/icon3.svg" alt="" class="pb-3">
-                    <h5>100% Satisfaction</h5>
-                    <p>So it really behaves like neither. <br> 
-                        Now we have given up. </p>
+    <section class="features">
+        <div class="container text-center p-5 p-lg-0">
+            <div class="row align-middle vh-100 h-lg ">
+                <div class="col-sm-12 d-lg-flex align-items-lg-center">
+                    <div class="pb-5 col-lg-4 pb-lg-0">
+                        <img src="./img/icon 1.svg" alt="" class="pb-3">
+                        <div>                        
+                            <h5>Peace of Mind</h5>
+                            <p>
+                                So it really behaves like neither. <br> 
+                                Now we have given up. 
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class=" pb-5 col-lg-4 pb-lg-0">
+                        <img src="./img/icon2.svg" alt="" class="pb-3"> 
+                        <div>
+                            <h5 class="">
+                                Set For Life
+                            </h5>
+                            <p>
+                                They were used to create the <br>
+                                machines that launched  
+                            </p>   
+                        </div>
+
+                    </div>
+                    <div class= " col-lg-4">
+                        <img src="./img/icon3.svg" alt="" class="pb-3">
+                        <div class="">                        
+                            <h5 class="pt-1">100% Satisfaction</h5>
+                            <p>
+                                So it really behaves like neither. <br> 
+                                Now we have given up. 
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="reviews">
-        <div class="container text-center p-5 px-2">
-            <div class="row pb-4">
+        <div class="container container-lg text-center p-5 px-2">
+            <div class="row pb-3">
                 <div class="col-sm-12">
-                    <h2 class="fs-1 fw-bold">What <br>
-                        Clients Say</h2>
-                        <p class="fs-6">Problems trying to resolve
-                            the conflict between the two major
+                    <h2 class=" fw-bold pb-2 h1 text-capitalize">
+                        what our clients say
+                    </h2>
+                        <p class="fs-6 w-50 mx-auto">Problems trying to resolve 
+                            the conflict between the two major 
                             realms of Classical physics:
                             Newtonian mechanics </p>
                 </div>
             </div>
-            <div class="row text-black ">
-                <div class="col-sm-6 bg-white w-75 p-4 text-start mx-auto mb-4">
+            <div class="row text-black px-5 mb-5 d-lg-flex justify-content-lg-around px-lg-0">
+                <div class="col-sm-12 bg-white py-4 px-5 text-start mb-4 mb-lg-0 col-lg-5 py-lg-5">
                     <div>
-                        <h3>Regina Miles</h3>
-                        <h6 class="pb-2">Designer</h6>
+                        <h3 class="h2">Regina Miles</h3>
+                        <h6>Designer</h6>
                     </div>
-                    <div class="pb-3">
+                    <div class="py-3">
                         <img src="./img/star.svg" alt=""><img src="./img/star.svg" alt=""><img src="./img/star.svg" alt=""><img src="./img/star.svg" alt=""><img src="./img/outlinestar.svg" alt="">
                     </div>
-                    <p>This proved to be 
+                    <p class="pe-4 pe-lg-0">This proved to be 
                         impossible using the 
                         traditional concepts 
                         of space and time. Einstein 
@@ -103,38 +132,35 @@
                         developed a new view 
                         of time first and then space.</p>
                 </div>
-                <div class="col-sm-6">
-                    <div class="row text-black ">
-                        <div class="col-sm-6 bg-white w-75 p-4 text-start mx-auto mb-5">
-                            <div>
-                                <h3>Regina Miles</h3>
-                                <h6 class="pb-2">Designer</h6>
-                            </div>
-                            <div class="pb-3">
-                                <img src="./img/star.svg" alt=""><img src="./img/star.svg" alt=""><img src="./img/star.svg" alt=""><img src="./img/star.svg" alt=""><img src="./img/outlinestar.svg" alt="">
-                            </div>
-                            <p>This proved to be 
-                                impossible using the    
-                                traditional concepts 
-                                of space and time. Einstein 
-                                developed a new view 
-                                of time first and then 
-                                space. This proved to be 
-                                impossible using the 
-                                traditional concepts 
-                                of space and time. Einstein 
-                                developed a new view 
-                                of time first and then space.</p>
-                        </div>
+                <div class="col-sm-12 bg-white p-4 px-5 text-start col-lg-5 py-lg-5">
+                    <div>
+                        <h3 class="h2">Regina Miles</h3>
+                        <h6 >Designer</h6>
+                    </div>
+                    <div class="py-3">
+                        <img src="./img/star.svg" alt=""><img src="./img/star.svg" alt=""><img src="./img/star.svg" alt=""><img src="./img/star.svg" alt=""><img src="./img/outlinestar.svg" alt="">
+                    </div>
+                    <p class="pe-4 pe-lg-0">This proved to be 
+                        impossible using the    
+                        traditional concepts 
+                        of space and time. Einstein 
+                        developed a new view 
+                        of time first and then 
+                        space. This proved to be 
+                        impossible using the 
+                        traditional concepts 
+                        of space and time. Einstein 
+                        developed a new view 
+                        of time first and then space.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="industry pb-5">
-        <div class="container text-center">
+    <section class="industry">
+        <div class="container-fluid text-center pt-5">
             <div class="row">
-                <div class="col-sm-12 mx-auto p-5">
-                    <h2 class="px-5 pb-3 fs-1">We Are
+                <div class="col-sm-12 p-5">
+                    <h2 class="px-5 pb-3 h1">We Are
                         Optimists 
                         Who Love 
                         To Work 
@@ -148,63 +174,52 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-3 text-start text-bottom">
-                    <div class="">
-                        <img src="./img/bg1.svg" alt="" class="w-100 px-5 pb-3">
-                        <div class="px-6 d-block position-relative bottom h">    
-                            <h6>Tax Management</h6>
-                            <h3>Life Tips From Top Ten 
+            <div class="row px-4 px-lg-0 pb-5">
+                <div class="col-sm-12 text-start text-bottom d-lg-flex">
+                    <div class="pb-4 pb-lg-0 px-2 col-lg-3">
+                        <img src="./img/bg1.svg" alt="" class="w-100">
+                        <div class="px-5 px-lg-3 d-block position-relative mt-3 bottom h">    
+                            <h6 class="fs-lg">Tax Management</h6>
+                            <h3 class="fs-lg">Life Tips From Top Ten 
                                 Adventure Travelers</h3>
                             <button type="button" class="btn btn-primary rounded-pill p-2 px-5">View Project</button>
                         </div>
                     </div>
-
-                </div>
-                <div class="col-sm-3 text-start text-bottom">
-                    <div class="">
-                        <img src="./img/bg2.svg" alt="" class="w-100 px-5 py-3">
-                        <div class="px-6 d-block position-relative bottom h">
-                            <h6>Tax Management</h6>
-                            <h3>Life Tips From Top Ten 
+                    <div class="pb-4 pb-lg-0 px-2 col-lg-3">
+                        <img src="./img/bg2.svg" alt="" class="w-100">
+                        <div class="px-5 px-lg-3 d-block position-relative mt-3 bottom h">
+                            <h6 class="fs-lg">Tax Management</h6>
+                            <h3 class="fs-lg">Life Tips From Top Ten 
                                 Adventure Travelers</h3>
                             <button type="button" class="btn btn-primary rounded-pill p-2 px-5">View Project</button>
                         </div>
                     </div>
-
-                </div>
-                <div class="col-sm-3 text-start text-bottom">
-                    <div class="">
-                        <img src="./img/bg3.svg" alt="" class="w-100 px-5 py-3">
-                        <div class="px-6 d-block position-relative bottom mx-auto h">
-                            <h6>Tax Management</h6>
-                            <h3>Life Tips From Top Ten 
+                    <div class="pb-4 pb-lg-0 px-2 col-lg-3">
+                        <img src="./img/bg3.svg" alt="" class="w-100">
+                        <div class="px-5 px-lg-3 d-block position-relative mt-3 bottom h">
+                            <h6 class="fs-lg">Tax Management</h6>
+                            <h3 class="fs-lg">Life Tips From Top Ten 
                                 Adventure Travelers</h3>
                             <button type="button" class="btn btn-primary rounded-pill p-2 px-5">View Project</button>
                         </div>
                     </div>
-
-                </div>
-                <div class="col-sm-3 text-start text-bottom">
-                    <div class="">
-                        <img src="./img/bg4.svg" alt="" class="w-100 px-5 py-3 opacity-50">
-                        <div class="px-6 d-block position-relative bottom h">
-                            <h6>Tax Management</h6>
-                            <h3>Life Tips From Top Ten 
+                    <div class="px-2 col-lg-3">
+                        <img src="./img/bg4.svg" alt="" class="w-100 opacity-50">
+                        <div class="px-5 px-lg-3 d-block position-relative mt-3 bottom h">
+                            <h6 class="fs-lg">Tax Management</h6>
+                            <h3 class="fs-lg">Life Tips From Top Ten 
                                 Adventure Travelers</h3>
                             <button type="button" class="btn btn-primary rounded-pill p-2 px-5">View Project</button>
                         </div>
                     </div>
-
                 </div>
-                
             </div>
         </div>
     </section>
     <section class="pricing">
         <div class="container text-center py-5">
             <div class="row">
-                <h2 class="fs-1 pb-1">Pricing</h2>
+                <h2 class="pb-1 h1">Pricing</h2>
                 <p class="px-6">Problems trying to resolve 
                     the conflict between the two major 
                     realms of Classical physics: 
@@ -212,199 +227,206 @@
                 </p>
             </div>
         
-            <div class="row">
-                <div class="col-sm-4 p-5 pb-3 text-black ">
-                    <div class="bg-white p-5 rounded border border-info-subtle">
-                        <h3 class="fs-1 fw-bold text-uppercase">Free</h3>
+            <div class="row px-lg-5">
+                <div class="col-sm-12 col-lg-12 p-5 px-lg-0 pb-3 text-black d-lg-flex flex-lg-row gap-3">
+                    <div class="bg-white p-5 mb-5 mb-lg-0 rounded border border-info-subtle col-lg">
+                        <h2 class="fs-1 fw-bold text-uppercase">Free</h2>
                         <h5 class="px py-4 text-secondary">Organize across all 
                             apps by hand
                         </h5>
-                        <div class="d-flex justify-content-center">
-                            <h2 class="fs-0 text-primary pe-2 fw-bold pb-5 ">0</h2>
-                            <div class="text-start">
-                                <h3 class="fs-5 fw-bold text-primary m-0 pb-1">$</h3>
+                        <div class="d-flex justify-content-center flex-lg-column pb-lg-5">
+                            <h2 class="fs-0 text-primary pe-2 fw-bold pb-5 p-lg-0">0<span class="d-none d-lg-inline">$</span></h2>
+                            <div class="text-start text-lg-center">
+                                <h3 class="fs-5 fw-bold text-primary pb-1 d-lg-none">$</h3>
+                                <h5 class="fs-5 text-info fw-normal">Per Month</h5>
+                            </div>
+                        </div>
+                        <div class="text-start d-lg-flex flex-lg-column-reverse ">
+                            <div class="pt-lg-3">
+                                <div class="d-flex flex-row pb-3">
+                                    <img src="./img/checkmark.svg" alt="" class="pe-3">
+                                    <h6>Unlimited product updates</h6>
+                                </div>
+                                <div class="d-flex flex-row pb-3">
+                                    <img src="./img/checkmark.svg" alt="" class="pe-3">
+                                    <h6>Unlimited product updates</h6>
+                                </div>
+                                <div class="d-flex flex-row pb-3">
+                                    <img src="./img/checkmark.svg" alt="" class="pe-3">
+                                    <h6>Unlimited product updates</h6>
+                                </div>
+                                <div class="d-flex flex-row pb-3">
+                                    <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
+                                    <h6>1GB  Cloud storage</h6>
+                                </div>
+                                <div class="d-flex flex-row pb-5">
+                                    <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
+                                    <h6>
+                                        Email and community 
+                                        support
+                                    </h6>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary rounded py-3 w-100 fw-bold mb-lg-4"type='button'>Try For Free</button>
+                        </div>
+                    </div>
+                    <div class="bg-white p-5 mb-5 mb-lg-0 rounded border border-info-subtle col-lg">
+                        <h2 class="fs-1 fw-bold text-uppercase">Silver</h2>
+                        <h5 class="py-4 text-secondary">Organize across all 
+                            apps by hand
+                        </h5>
+                        <div class="d-flex justify-content-center flex-lg-column pb-lg-5">
+                            <h2 class="fs-0 text-primary pe-2 fw-bold pb-5 p-lg-0">9.99<span class="d-none d-lg-inline">$</span></h2>
+                            <div class="text-start text-lg-center">
+                                <h3 class="fs-5 fw-bold text-primary pb-1 d-lg-none">$</h3>
                                 <h5 class="fs-5 text-info fw-normal">Per Month</h5>
                             </div>
                         </div>
                         <div class="text-start">
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark.svg" alt="" class="pe-3">
-                                <h6>Unlimited product updates</h6>
+                            <div class="text-start d-lg-flex flex-lg-column-reverse">
+                                <div class="pt-lg-3">
+                                    <div class="d-flex flex-row pb-3">
+                                        <img src="./img/checkmark.svg" alt="" class="pe-3">
+                                        <h6>Unlimited product updates</h6>
+                                    </div>
+                                    <div class="d-flex flex-row pb-3">
+                                        <img src="./img/checkmark.svg" alt="" class="pe-3">
+                                        <h6>Unlimited product updates</h6>
+                                    </div>
+                                    <div class="d-flex flex-row pb-3">
+                                        <img src="./img/checkmark.svg" alt="" class="pe-3">
+                                        <h6>Unlimited product updates</h6>
+                                    </div>
+                                    <div class="d-flex flex-row pb-3">
+                                        <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
+                                        <h6>1GB  Cloud storage</h6>
+                                    </div>
+                                    <div class="d-flex flex-row pb-5">
+                                        <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
+                                        <h6>
+                                            Email and community 
+                                            support
+                                        </h6>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary rounded py-3 w-100 fw-bold mb-lg-4"type='button'>Try For Free</button>
                             </div>
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark.svg" alt="" class="pe-3">
-                                <h6>Unlimited product updates</h6>
-                            </div>
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark.svg" alt="" class="pe-3">
-                                <h6>Unlimited product updates</h6>
-                            </div>
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
-                                <h6>1GB  Cloud storage</h6>
-                            </div>
-                            <div class="d-flex flex-row pb-5">
-                                <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
-                                <h6>
-                                    Email and community 
-                                    support
-                                </h6>
-                            </div>
-                            <button class="btn btn-primary rounded py-3 w-100 fw-bold"type='button'>Try For Free</button>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 p-5 pb-3 text-black ">
-                    <div class="bg-white p-5 rounded border border-info-subtle">
-                        <h3 class="fs-1 fw-bold text-uppercase">silver</h3>
+                    <div class=" bg-white p-5 mb-5 mb-lg-0 rounded border border-info-subtle col-lg">
+                        <h2 class="fs-1 fw-bold text-uppercase">Gold</h2>
                         <h5 class="px py-4 text-secondary">Organize across all 
                             apps by hand
                         </h5>
-                        <div class="d-flex justify-content-center">
-                            <h2 class="fs-0 text-primary pe-2 fw-bold pb-5 ">9.99</h2>
-                            <div class="text-start">
-                                <h3 class="fs-5 fw-bold text-primary m-0 pb-1">$</h3>
+                        <div class="d-flex justify-content-center flex-lg-column pb-lg-5">
+                            <h2 class="fs-0 text-primary pe-2 fw-bold pb-5 p-lg-0">19.99<span class="d-none d-lg-inline">$</span></h2>
+                            <div class="text-start text-lg-center">
+                                <h3 class="fs-5 fw-bold text-primary pb-1 d-lg-none">$</h3>
                                 <h5 class="fs-5 text-info fw-normal">Per Month</h5>
                             </div>
                         </div>
-                        <div class="text-start">
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark.svg" alt="" class="pe-3">
-                                <h6>Unlimited product updates</h6>
+                        <div class="text-start d-lg-flex flex-lg-column-reverse ">
+                            <div class="pt-lg-3">
+                                <div class="d-flex flex-row pb-3">
+                                    <img src="./img/checkmark.svg" alt="" class="pe-3">
+                                    <h6>Unlimited product updates</h6>
+                                </div>
+                                <div class="d-flex flex-row pb-3">
+                                    <img src="./img/checkmark.svg" alt="" class="pe-3">
+                                    <h6>Unlimited product updates</h6>
+                                </div>
+                                <div class="d-flex flex-row pb-3">
+                                    <img src="./img/checkmark.svg" alt="" class="pe-3">
+                                    <h6>Unlimited product updates</h6>
+                                </div>
+                                <div class="d-flex flex-row pb-3">
+                                    <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
+                                    <h6>1GB  Cloud storage</h6>
+                                </div>
+                                <div class="d-flex flex-row pb-5">
+                                    <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
+                                    <h6>
+                                        Email and community 
+                                        support
+                                    </h6>
+                                </div>
                             </div>
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark.svg" alt="" class="pe-3">
-                                <h6>Unlimited product updates</h6>
-                            </div>
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark.svg" alt="" class="pe-3">
-                                <h6>Unlimited product updates</h6>
-                            </div>
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
-                                <h6>1GB  Cloud storage</h6>
-                            </div>
-                            <div class="d-flex flex-row pb-5">
-                                <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
-                                <h6>
-                                    Email and community 
-                                    support
-                                </h6>
-                            </div>
-                            <button class="btn btn-primary rounded py-3 w-100 fw-bold"type='button'>Try For Free</button>
-                        </div>
+                            <button class="btn btn-primary rounded py-3 w-100 fw-bold mb-lg-4"type='button'>Try For Free</button>
+                       </div>
                     </div>
                 </div>
-                <div class="col-sm-4 p-5 text-black ">
-                    <div class="bg-white p-5 rounded border border-info-subtle">
-                        <h3 class="fs-1 fw-bold text-uppercase">gold</h3>
-                        <h5 class="px py-4 text-secondary">Organize across all 
-                            apps by hand
-                        </h5>
-                        <div class="d-flex justify-content-center">
-                            <h2 class="fs-0 text-primary pe-2 fw-bold pb-5 ">19.99</h2>
-                            <div class="text-start">
-                                <h3 class="fs-5 fw-bold text-primary m-0 pb-1">$</h3>
-                                <h5 class="fs-5 text-info fw-normal">Per Month</h5>
-                            </div>
-                        </div>
-                        <div class="text-start">
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark.svg" alt="" class="pe-3">
-                                <h6>Unlimited product updates</h6>
-                            </div>
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark.svg" alt="" class="pe-3">
-                                <h6>Unlimited product updates</h6>
-                            </div>
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark.svg" alt="" class="pe-3">
-                                <h6>Unlimited product updates</h6>
-                            </div>
-                            <div class="d-flex flex-row pb-3">
-                                <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
-                                <h6>1GB  Cloud storage</h6>
-                            </div>
-                            <div class="d-flex flex-row pb-5">
-                                <img src="./img/checkmark_gray.svg" alt="" class="pe-3">
-                                <h6>
-                                    Email and community 
-                                    support
-                                </h6>
-                            </div>
-                            <button class="btn btn-primary rounded py-3 w-100 fw-bold"type='button'>Try For Free</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div>             
         </div>
     </section>
     <section class="consult">
-        <div class="container p-5 text-start">
+        <div class="container-fluid px-6 p-5 text-start bg-white ">
             <div class="row">
-                <div class="col-sm-12 bg-white text-black ps-5">
-                    <h3 class="fw-bold fs-1 pb-2">
-                        Consulting Agency 
-                        For Your Business
-                    </h3>
-                    <p class="fs-6 fw-medium w-50 pb-5">
-                        the quick fox jumps over 
-                        the lazy dog
-                    </p>
+                <div class="col-sm-12 text-black  d-lg-flex justify-content-lg-between align-items-lg-center">
+                    <div class="d-lg-flex justify-content-lg-center flex-lg-column">                    
+                        <h3 class="fw-bold pb-2 h1">
+                            Consulting Agency 
+                            For Your Business
+                        </h3>
+                        <p class="fs-6 fw-medium w-50 pb-5 pb-lg-0">
+                            the quick fox jumps over 
+                            the lazy dog
+                        </p>
+                    </div>
+
                     <button type="button" class="btn btn-primary rounded fw-bold p-3 px-5">Contact Us</button>
                 </div>
             </div>
         </div>
     </section>
     <footer class="footer">
-        <div class="container p-5">
-            <div class="row mt-5">
-                <div class="col-sm-12 text-white">
-                    <div class="d-flex flex-column align-items-start pb-4 ps-5 lh ">
-                        <h5 class="pb-2">Company Info</h5>
+        <div class="container-fluid align-middle">
+            <div class="row mt-5 pb-lg-5 px-6">
+                <div class="col-sm-12 px-0 text-white d-lg-flex fs-lg justify-content-lg-between">
+                    <div class="d-flex flex-column align-items-start pb-4 d-flex flex-column gap-3">
+                        <h5 class="py-2">Company Info</h5>
                         <a href="">About Us</a>
                         <a href="">Carrier</a>
                         <a href="">We are hiring</a>
                         <a href="">Blog</a>
                     </div>
-                    <div class="d-flex flex-column align-items-start pb-4 ps-5 lh">
-                        <h5 class="pb-2">Legal</h5>
+                    <div class="d-flex flex-column align-items-start pb-4 d-flex flex-column gap-3">
+                        <h5 class="py-2">Legal</h5>
                         <a href="">About Us</a>
                         <a href="">Carrier</a>
                         <a href="">We are hiring</a>
                         <a href="">Blog</a>
                     </div>
-                    <div class="d-flex flex-column align-items-start pb-4 ps-5 lh">
-                        <h5 class="pb-2">Features</h5>
+                    <div class="d-flex flex-column align-items-start pb-4 d-flex flex-column gap-3">
+                        <h5 class="py-2">Features</h5>
                         <a href="">Business Marketing</a>
                         <a href="">User Analytic</a>
                         <a href="">Live Chat</a>
                         <a href="">Unlimited Support</a>
                     </div>
-                    <div class="d-flex flex-column align-items-start pb-4 ps-5 lh ">
-                        <h5 class="pb-2">Resources</h5>
+                    <div class="d-flex flex-column align-items-start pb-4 d-flex flex-column gap-3 ">
+                        <h5 class="py-2">Resources</h5>
                         <a href="">IOS & Android</a>
                         <a href="">Watch a Demo</a>
                         <a href="">Customers</a>
-                        <a href="">API</a>
+                        <a href="" class="text-uppercase">api</a>
                     </div>
-                    <div class="lh ps-5 pb-5">
-                        <h5>Get In Touch</h5>
+                    <div class="d-flex flex-column gap-3 pb-5 pt-2 ">
+                        <h5 class="pb-lg-2">Get In Touch</h5>
                         <div>
-                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#23A6F0" class="bi bi-telephone" viewBox="0 0 16 16">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="fill-lg-white" width="22" height="22" fill="#23A6F0" class="bi bi-telephone" viewBox="0 0 16 16">
                                 <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                             </svg>
                             <a href="">(480) 555-0103</a>
                         </div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#23A6F0" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="fill-lg-white" width="22" height="22" fill="#23A6F0" class="bi bi-geo-alt" viewBox="0 0 16 16">
                                 <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
                                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                               </svg>
-                            <a href="">4517 Washington Ave. Manchester, Kentucky 39495</a>
+                            <a href="">4517 Washington Ave.</a>
                         </div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#23A6F0" class="bi bi-send" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="fill-lg-white" width="22" height="22" fill="#23A6F0" class="bi bi-send" viewBox="0 0 16 16">
                                 <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
                               </svg>
                             <a href="">debra.holt@example.com</a>
@@ -413,26 +435,26 @@
 
                 </div>
             </div>
-            <div class="row ">
-                <div class="col-sm-12">
-                    <h6 class="fs-5 p-5">Made With Love By Figmaland <br>
+            <div class="row p-5 px-6 bg-lg-white text-lg-black d-lg-flex">
+                <div class="col-sm-12 px-0 d-lg-flex justify-content-lg-between">
+                    <h6 class="fs-5 text-lg-nowrap text-start pb-5 pb-lg-0">Made With Love By Figmaland
                         All Right Reserved </h6>
-                </div>
-                <div class="d-flex flex-row justify-content-between w-50">
-                    <div class="col-sm-3">
-                        <a href="" class=" ps-5" class="#335BF5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#335BF5" class="bi bi-facebook" viewBox="0 0 16 16">
-                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                        </svg></a>
+                    <div class="d-flex gap-3">
+                        <div class="">
+                            <a href="" class="" class="#335BF5"><svg xmlns="http://www.w3.org/2000/svg" class="fill-lg-primary" width="24" height="24" fill="#335BF5" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                            </svg></a>
+                        </div>
+                        <div class=""><a href=""><svg xmlns="http://www.w3.org/2000/svg" class="fill-lg-primary" width="24" height="24" fill="#E51F5A" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg></a></div>
+                        <div class=""><a href=""><svg xmlns="http://www.w3.org/2000/svg" class="fill-lg-primary" width="24" height="24" fill="#21A6DF" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg></a></div>
+                        <div class=" d-lg-none"><a href="" class="text-white"><svg xmlns="http://www.w3.org/2000/svg" class="fill-lg-primary" width="24" height="24" fill="#E42F08" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                        </svg></a></div>
                     </div>
-                    <div class="col-sm-3"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E51F5A" class="bi bi-instagram" viewBox="0 0 16 16">
-                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-                    </svg></a></div>
-                    <div class="col-sm-3"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#21A6DF" class="bi bi-twitter" viewBox="0 0 16 16">
-                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                    </svg></a></div>
-                    <div class="col-sm-3"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E42F08" class="bi bi-youtube" viewBox="0 0 16 16">
-                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
-                    </svg></a></div>
                 </div>
             </div>
         </div>
