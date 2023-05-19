@@ -42,8 +42,8 @@ input {
 }
 
 .container {
-  display: flex;
-  flex-flow: row;
+  display: grid;
+  grid-template-columns: 1fr 14fr 7fr;
 }
 
 .side-menu {
@@ -73,6 +73,7 @@ input {
 .side-menu__nav-selected img {
   animation: fullcircle 1s linear 0ms infinite;
 }
+
 .main {
   padding: 0 30px 200px 30px;
   min-width: 60%;
@@ -249,8 +250,8 @@ input {
     font-size: 20px;
   }
   .container {
-    flex-flow: column;
-    padding: 20px 40px;
+    grid-template-columns: 1fr;
+    padding: 20px 35px;
   }
   .side-menu {
     z-index: 1;
