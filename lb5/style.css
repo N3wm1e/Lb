@@ -43,10 +43,13 @@ input {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 14fr 7fr;
+  grid-template-columns: 1fr 7fr 3fr;
+  grid-template-rows: auto;
+  grid-template-areas: "side main order" "side main order" "side main order";
 }
 
 .side-menu {
+  grid-area: side;
   background-color: #F6F6F6;
   min-height: 100vh;
 }
@@ -75,6 +78,7 @@ input {
 }
 
 .main {
+  grid-area: main;
   padding: 0 30px 200px 30px;
   min-width: 60%;
 }
@@ -162,6 +166,7 @@ input {
 }
 
 .order-preview {
+  grid-area: order;
   background-color: #F6F6F6;
   padding: 20px;
   min-width: 25%;
@@ -250,8 +255,8 @@ input {
     font-size: 20px;
   }
   .container {
-    grid-template-columns: 1fr;
-    padding: 20px 35px;
+    grid-template-areas: "side side side" "main main main" "order order order";
+    padding: 20px 40px;
   }
   .side-menu {
     z-index: 1;
